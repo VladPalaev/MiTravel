@@ -5,3 +5,8 @@
 @import '_global.css'; /* сброс глобальных свойств */
 @import '_overall.css'; /* индивидуальные свойства проекта */
 
+/* COMPONENTS style start  */
+
+@import './components/_header.css';
+@import './components/_hero.css';
+

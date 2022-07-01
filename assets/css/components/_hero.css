@@ -1,0 +1,46 @@
+.hero {
+	height: 100vh;
+	min-height: 600px;
+	padding-top: 219px;
+	background-image: url('../../img/bg-hero.jpg');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: var(--clr-white);
+}
+
+
+.hero__link-to-book {
+	margin-bottom: 40px;
+	padding: 18px 30px;
+	font-size: 11px;
+	font-weight: 800;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	background-color: rgba(28, 46, 61, 0.4);
+	border-radius: 100px;
+}
+
+.hero__title {
+	max-width: 40%; /* Нужно ли для адаптива */
+	margin-bottom: 40px;
+	font-size: 80px;
+	font-weight: 700;
+	line-height: 1.05em;
+}
+.hero__text {
+	max-width: 32%;
+	margin-bottom: 59px;
+	font-family: 'SFCompact', sans-serif;
+	font-size: 14px;
+	line-height: 1.17em;
+}
+.hero__btn {
+	padding: 33px 80px;
+	font-size: 12px;
+	font-weight: 800;
+	letter-spacing: 2.18px;
+	text-transform: uppercase;
+	background-color: var(--clr-accent);
+	border-radius: 8px;
+}

@@ -1,6 +1,21 @@
-.container {
-	max-width: 1140px;
-	margin: 0 auto;
-	padding: 0 15px;
+.site-container {
+	overflow: hidden;
 }
 
+.container {
+	max-width: 1628px;
+	margin: 0 auto;
+	padding: 0 30px;
+}
+
+.flex {
+	display: flex;
+}
+
+.icon {
+	display: block;
+	height: 100%;
+	width: 100%;
+	fill: inherit;
+	stroke: inherit;
+}
