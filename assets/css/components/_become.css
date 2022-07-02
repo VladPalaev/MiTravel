@@ -1,0 +1,11 @@
+.become {
+}
+.become__container {
+	padding-top: 150px;
+}
+.become__title {
+	max-width: 49%;
+	font-size: 64px;
+	line-height: 1.25em;
+	color: var(--clr-dark-black);
+}
