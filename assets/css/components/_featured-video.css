@@ -1,0 +1,21 @@
+.featured-video {
+
+}
+
+.featured-video__container {
+	padding-top: 150px;
+}
+
+.featured-video__title {
+	margin-bottom: 24px;
+}
+
+.featured-video__descr {
+	max-width: 634px;
+	margin: 0 auto;
+	margin-bottom: 96px;
+	font-size: 16px;
+	line-height: 1.5em;
+	color: var(--clr-gray);
+}
+
