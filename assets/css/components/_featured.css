@@ -1,0 +1,134 @@
+.featured {
+	height: 1080px;
+	background-image: url('../../img/bg-featured.jpg');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+/* /ARTICLE start  */
+.featured__article {
+	flex-grow: 1;
+	margin-top: auto;
+	padding-left: calc(50% - 784px);
+	padding-bottom: 106px;
+}
+
+.blog-article__category {
+	margin-bottom: 16px;
+	padding: 18px 31px;
+	font-size: 11px;
+	font-weight: 800;
+	line-height: 1.2em;
+	color: var(--clr-white);
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	background-color: var(--clr-accent);
+	border-radius: 24px;
+}
+
+.blog-article__title {
+	max-width: 634px;
+	margin-bottom: 16px;
+	font-size: 48px;
+	font-weight: 700;
+	line-height: 1.33em;
+	color: var(--clr-white);
+}
+
+.blog-article__descr {
+	max-width: 634px;
+	margin-bottom: 40px;
+	font-family: 'SFCompact', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.5em;
+	color: var(--clr-white);
+}
+
+.blog-article__link {
+	padding: 33px 78px;
+	font-size: 12px;
+	font-weight: 700;
+	letter-spacing: 2.18px;
+	color: var(--clr-white);
+	text-transform: uppercase;
+	background-color: var(--clr-neptune);
+	border-radius: 8px;
+}
+/* /ARTICLE end  */
+
+/* /STORIES start  */
+.featured__stories {
+	flex-basis: 35%;
+	padding: 130px calc(50% - 877px) 106px 133px;
+	background-color: rgba(60, 74, 81, 0.9);
+}
+
+.featured__title {
+	margin-bottom: 64px;
+	color: var(--clr-white);
+}
+
+.stories__list {
+}
+
+.stories__item {
+	padding-top: 33px;
+	padding-bottom: 33px;
+}
+
+.stories__item:not(:last-child) {
+	border-bottom: 1px solid rgba(227, 227, 227, 0.1);
+}
+
+.stories__image {
+	margin-right: 32px;
+	width: 48px;
+	height: 48px;
+	flex-shrink: 0;
+	overflow: hidden;
+	border-radius: 50%;
+}
+
+.stories__title {
+	margin-bottom: 8px;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 1.33em;
+	color: var(--clr-white);
+}
+
+.stories__time {
+	font-family: 'SFProText', sans-serif;
+	font-size: 11px;
+	color: var(--clr-white);
+	opacity: 0.5;
+}
+/* /STORIES end  */
+
+@media (max-width: 1598px) {
+	.blog-article__category {
+		margin-left: 30px;
+	}
+	.blog-article__title {
+		margin-left: 30px;
+	}
+	.blog-article__descr {
+		margin-left: 30px;
+	}
+	.blog-article__link {
+		margin-left: 30px;
+	}
+	.stories__item {
+		padding-right: 30px;
+	}
+}
+
+@media (max-width: 1810px) {
+	.featured__title {
+		padding-right: 30px;
+	}
+	.stories__item {
+		padding-right: 30px;
+	}
+}

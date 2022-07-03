@@ -19,3 +19,15 @@
 	fill: inherit;
 	stroke: inherit;
 }
+
+.section-title {
+	font-size: 64px;
+	font-weight: 700;
+	line-height: 1.25em;
+	color: var(--clr-dark-black);
+}
+
+.section-title--center {
+	text-align: center;
+	max-width: none;
+}

@@ -173,4 +173,7 @@
 	.main-slider__text {
 		height: 80px;
 	}
+	.hero__slider-bth {
+		bottom: 33px;
+	}
 }

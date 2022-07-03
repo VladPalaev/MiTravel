@@ -10,4 +10,5 @@
 @import './components/_header.css';
 @import './components/_hero.css';
 @import './components/_become.css';
-
+@import './components/_featured.css';
+@import './components/_featured-video.css';
